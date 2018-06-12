@@ -14,6 +14,7 @@
 		089C296220CF6E2B00442B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089C296020CF6E2B00442B87 /* LaunchScreen.storyboard */; };
 		089C296D20CF6E2B00442B87 /* FilmScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C296C20CF6E2B00442B87 /* FilmScannerTests.swift */; };
 		089C297820CF6E2B00442B87 /* FilmScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C297720CF6E2B00442B87 /* FilmScannerUITests.swift */; };
+		089C298720CF720100442B87 /* test_film.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 089C298620CF720100442B87 /* test_film.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		089C297320CF6E2B00442B87 /* FilmScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		089C297720CF6E2B00442B87 /* FilmScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmScannerUITests.swift; sourceTree = "<group>"; };
 		089C297920CF6E2B00442B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089C298620CF720100442B87 /* test_film.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_film.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		089C294B20CF6E2900442B87 = {
 			isa = PBXGroup;
 			children = (
+				089C298520CF71EC00442B87 /* Assets */,
 				089C295620CF6E2900442B87 /* FilmScanner */,
 				089C296B20CF6E2B00442B87 /* FilmScannerTests */,
 				089C297620CF6E2B00442B87 /* FilmScannerUITests */,
@@ -123,6 +126,14 @@
 				089C297920CF6E2B00442B87 /* Info.plist */,
 			);
 			path = FilmScannerUITests;
+			sourceTree = "<group>";
+		};
+		089C298520CF71EC00442B87 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				089C298620CF720100442B87 /* test_film.jpg */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 				089C296220CF6E2B00442B87 /* LaunchScreen.storyboard in Resources */,
 				089C295F20CF6E2B00442B87 /* Assets.xcassets in Resources */,
 				089C295D20CF6E2900442B87 /* Main.storyboard in Resources */,
+				089C298720CF720100442B87 /* test_film.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
